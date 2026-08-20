@@ -29,6 +29,7 @@ GitHub no longer allows pushing with just your username and password. Before you
 5. Click Generate token and copy it immediately (you won't see it again)
 
 When you run `git push` and it asks for:
+
 - Username → your GitHub username
 - Password → paste the token (not your actual password)
 
@@ -68,12 +69,14 @@ Alternative: install GitHub CLI and run `gh auth login` — it handles this for 
 
 ## Contributors
 
- 1. Adegboyega Adeyemi 
+1.  Adegboyega Adeyemi
 
+2.  Damilola Olusegun
+    chris-damilola
 
 Add your name and GitHub handle here when you join:
 
-- 
+-
 
 ## Stuck?
 
