@@ -18,6 +18,22 @@ git checkout -b your-name-exercises
 
 4. Create a folder with your name under `exercises/` (e.g. `exercises/ada/`) and start solving challenges from `CHALLENGES.md` inside it.
 
+## Authentication (Important!)
+
+GitHub no longer allows pushing with just your username and password. Before you push for the first time, set up a Personal Access Token:
+
+1. Go to GitHub → your profile picture (top right) → Settings
+2. Scroll to Developer settings (bottom of the left sidebar)
+3. Personal access tokens → Tokens (classic) → Generate new token (classic)
+4. Give it a name, set an expiration, check the "repo" box
+5. Click Generate token and copy it immediately (you won't see it again)
+
+When you run `git push` and it asks for:
+- Username → your GitHub username
+- Password → paste the token (not your actual password)
+
+Alternative: install GitHub CLI and run `gh auth login` — it handles this for you with a browser login, no token copying needed.
+
 ## How it works
 
 1. Clone this repo
