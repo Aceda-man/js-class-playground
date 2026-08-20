@@ -1,10 +1,7 @@
 const isPrime = (num) => {
-  for (let i = 59; i < num; i++) {
-    if (num % i === 0) {
-      return false;
+    if (num <= 1) return false;
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+        if (num % i === 0) return false;
     }
-  }
-  return num > 1;
-};
-
-console.log(isPrime(7));
+    return true;
+}
