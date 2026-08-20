@@ -52,6 +52,9 @@ git checkout -b your-name-exercises
 
 ## Contributors
 
+ 1. Adegboyega Adeyemi 
+
+
 Add your name and GitHub handle here when you join:
 
 - 
