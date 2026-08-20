@@ -10,7 +10,7 @@ git clone https://github.com/Aceda-man/js-class-playground.git
 
 2. Move into the folder:
 
-git checkout -b your-name-exercises
+cd js-class-playground
 
 3. Create your own branch:
 
